@@ -1,2 +1,2 @@
 # github-Data_Analysis
-A robot powered training repository :robot:
+Record items for learning data analysis!
