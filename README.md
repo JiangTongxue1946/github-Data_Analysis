@@ -44,4 +44,14 @@ pip install pandas matplotlib pymysql beautifulsoup4 selenium numpy
 - The database configuration allows you to modify the connection parameters in the code as needed
 - The first run automatically creates a database and data table
 
+###  V1.1 What's New Description:
+
+1. **Custom Product Name:**
+
+* When the program runs, you will be prompted to enter a keyword (the default is 'huaweipurax').
+
+2. Custom database connection parameters:
+
+* Prompt for host, user name, password, and database name (all with default values) at startup.
+
 Through this project, you will learn the complete process of data analysis, from data acquisition, cleaning, analysis to visualization and storage, which is a good entry-level practical project.
