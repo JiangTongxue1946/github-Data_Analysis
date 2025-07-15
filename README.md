@@ -50,8 +50,27 @@ pip install pandas matplotlib pymysql beautifulsoup4 selenium numpy
 
 * When the program runs, you will be prompted to enter a keyword (the default is 'huaweipurax').
 
-2. Custom database connection parameters:
+2. **Custom database connection parameters:**
 
 * Prompt for host, user name, password, and database name (all with default values) at startup.
 
+
+###  V1.2 What's New Description:
+
+ **Command - line Argument Parsing**
+The `argparse` module was introduced in version V1.2, allowing users to directly specify relevant parameters through the command line when running the script, without the need to manually input during the program's execution.
+
+*Function Description*
+- Users can use parameters such as `--host`, `--user`, `--password`, `--database` to specify the database configuration.
+- Use the `--keyword` parameter to specify the product keywords to be crawled.
+- Use the `--max_items` parameter to specify the maximum number of products to be collected on each platform.
+
+**Retain the Original Core Functions**
+In addition to the newly added command - line argument parsing function, version V1.2 retains the core functions of version V1.1, including:
+- **Data Crawling**: Crawl product price and sales volume data from e - commerce platforms such as Taobao, JD.com, and Pinduoduo.
+- **Data Visualization**: Conduct visual analysis of the crawled data and generate bar charts and double - Y - axis line charts.
+- **Data Storage**: Save the crawled data into a MySQL database.
+
 Through this project, you will learn the complete process of data analysis, from data acquisition, cleaning, analysis to visualization and storage, which is a good entry-level practical project.
+
+
