@@ -71,6 +71,12 @@ In addition to the newly added command - line argument parsing function, version
 - **Data Visualization**: Conduct visual analysis of the crawled data and generate bar charts and double - Y - axis line charts.
 - **Data Storage**: Save the crawled data into a MySQL database.
 
+
+###  V1.3 What's New Description:
+
+ **Added logic for exporting CSV files to the 'run' method**
+
+
 Through this project, you will learn the complete process of data analysis, from data acquisition, cleaning, analysis to visualization and storage, which is a good entry-level practical project.
 
 
